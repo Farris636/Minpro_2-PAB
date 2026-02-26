@@ -30,7 +30,7 @@ class HomePage extends StatelessWidget {
                       ),
                       SizedBox(height: 4),
                       Text(
-                        "Sarah Jenkins",
+                        "Farris Alfiansyah",
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,

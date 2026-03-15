@@ -1,16 +1,11 @@
-# manajemen_data_bus
+# Manajemen_Data_Bus
 
-A new Flutter project.
+## Deskripsi Aplikasi
+Manajemen Data Bus adalah aplikasi berbasis Flutter yang digunakan untuk mengelola data bus secara digital dan terstruktur. Aplikasi ini membantu dalam proses pencatatan, pengelolaan, serta monitoring data kendaraan bus agar lebih efisien dan mudah diakses.
 
-## Getting Started
+## Fitur Aplikasi
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Widget yang Digunakan
+## Nilai Tambah

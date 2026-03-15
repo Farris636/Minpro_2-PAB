@@ -5,7 +5,11 @@ Aplikasi Manajemen Data Bus dirancang untuk membantu pengguna dalam mengelola da
 
 Selain itu, aplikasi ini juga menyediakan fitur Login dan Register menggunakan Supabase Authentication sehingga hanya pengguna yang terdaftar yang dapat mengakses sistem. Aplikasi juga mendukung Light Mode dan Dark Mode agar pengguna dapat menyesuaikan tampilan aplikasi sesuai preferensi mereka.
 
-gambar login page
+
+![LoginPage](screenshoot/LoginPage.png)
+
+<img src="screenshoot/LoginPage.png" width="250">
+
 Halaman login digunakan untuk mengakses aplikasi dengan akun yang telah terdaftar.
 
 ## Fitur Aplikasi

@@ -1,37 +1,57 @@
 import 'package:flutter/material.dart';
+import 'package:supabase_flutter/supabase_flutter.dart';
 import '../models/armada_model.dart';
 
 class ArmadaProvider extends ChangeNotifier {
-  final List<Armada> _armadaList = [
-    Armada(name: "Mercedes OH 1626", plate: "B 1234 TGC", status: "Active"),
-    Armada(name: "Scania K410IB", plate: "D 9982 CF", status: "Maintenance"),
-    Armada(name: "Volvo B11R", plate: "L 4412 OP", status: "Active"),
-  ];
+  final supabase = Supabase.instance.client;
 
-  List<Armada> get armadaList => _armadaList;
+  List armadaList = [];
+
+  ArmadaProvider() {
+    loadArmada();
+    listenRealtime();
+  }
+
+  Future loadArmada() async {
+    final data = await supabase.from('armada').select();
+
+    armadaList = data;
+
+    notifyListeners();
+  }
 
   void addArmada(Armada armada) {
-    _armadaList.add(armada);
+    armadaList.add({
+      "name": armada.name,
+      "plate": armada.plate,
+      "status": armada.status,
+    });
+
     notifyListeners();
   }
 
-  void updateArmada(int index, Armada armada) {
-    _armadaList[index] = armada;
-    notifyListeners();
+  void listenRealtime() {
+    supabase
+        .channel('armada_changes')
+        .onPostgresChanges(
+          event: PostgresChangeEvent.all,
+          schema: 'public',
+          table: 'armada',
+          callback: (payload) {
+            loadArmada();
+          },
+        )
+        .subscribe();
   }
 
-  void deleteArmada(int index) {
-    _armadaList.removeAt(index);
-    notifyListeners();
-  }
+  int get totalFleet => armadaList.length;
 
-  int get totalFleet => _armadaList.length;
-
-  int get activeCount => _armadaList.where((e) => e.status == "Active").length;
+  int get activeCount =>
+      armadaList.where((e) => e['status'] == "Active").length;
 
   int get maintenanceCount =>
-      _armadaList.where((e) => e.status == "Maintenance").length;
+      armadaList.where((e) => e['status'] == "Maintenance").length;
 
   int get inactiveCount =>
-      _armadaList.where((e) => e.status == "Inactive").length;
+      armadaList.where((e) => e['status'] == "Inactive").length;
 }

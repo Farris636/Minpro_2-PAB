@@ -34,7 +34,7 @@ class ArmadaCard extends StatelessWidget {
         margin: const EdgeInsets.only(bottom: 16),
         padding: const EdgeInsets.all(18),
         decoration: BoxDecoration(
-          color: Colors.white,
+          color: Theme.of(context).cardColor,
           borderRadius: BorderRadius.circular(22),
           boxShadow: [
             BoxShadow(
@@ -90,7 +90,9 @@ class ArmadaCard extends StatelessWidget {
                 ],
               ),
             ),
+
             IconButton(
+              tooltip: "Hapus Armada",
               onPressed: onDelete,
               icon: const Icon(Icons.delete_outline, color: Colors.grey),
             ),

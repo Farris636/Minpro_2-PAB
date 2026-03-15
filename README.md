@@ -7,17 +7,21 @@ Selain itu, aplikasi ini juga menyediakan fitur Login dan Register menggunakan S
 
 
 <p align="center">
-  <img src="screenshoot/LoginPage.png" width="265">
-  <img src="screenshoot/Register.png" width="250">
+  <img src="screenshoot/LoginPage.png" width="250">
 </p>
+<p align="center">Halaman login digunakan untuk mengakses aplikasi dengan akun yang telah terdaftar.</p>
 
-Halaman login digunakan untuk mengakses aplikasi dengan akun yang telah terdaftar.
+
 
 ## Fitur Aplikasi
 Aplikasi Manajemen Data Bus memiliki beberapa fitur utama sebagai berikut:
 
 ### 🔐 Authentication
-
+<p align="center">
+  <img src="screenshoot/LoginPage.png" width="250">
+  <img src="screenshoot/RegisterPage.png" width="250">
+  <img src="screenshoot/LoginPage.png" width="250">
+</p>
 
 
 ## Widget yang Digunakan

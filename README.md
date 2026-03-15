@@ -19,9 +19,13 @@ Aplikasi Manajemen Data Bus memiliki beberapa fitur utama sebagai berikut:
 ### 🔐 Authentication
 <p align="center">
   <img src="screenshoot/LoginPage.png" width="250">
-  <img src="screenshoot/RegisterPage.png" width="250">
-  <img src="screenshoot/LoginPage.png" width="250">
+  <img src="screenshoot/RegisterPage.png" width="249">
+  <img src="screenshoot/Logout.png" width="250">
 </p>
+
+- Login pengguna
+- Register pengguna
+- Logout pengguna
 
 
 ## Widget yang Digunakan

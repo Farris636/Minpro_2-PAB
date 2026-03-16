@@ -36,10 +36,20 @@ terdaftar.Fitur ini berfungsi untuk memverifikasi identitas pengguna sehingga ha
 ### 🚌 Manajemen Data Bus (CRUD)
 Fitur Manajemen Data Bus digunakan untuk mengelola seluruh data bus yang tersimpan di dalam sistem aplikasi.
 
-**1. Menampilkan Data Bus**
-**2. Menambahkan Data Bus**
-**3. Mengubah Data Bus**
-**4. Menghapus Data Bus**
+<p align="center">
+  <img src="screenshoot/Daftar.png" width="200">
+  <img src="screenshoot/Tambah.png" width="200">
+  <img src="screenshoot/Edit.png" width="200">
+  <img src="screenshoot/Hapus.png" width="200">
+</p>
+
+**1. Menampilkan Data Bus**, Fitur ini digunakan untuk menampilkan daftar seluruh data bus yang telah tersimpan di dalam sistem. Informasi yang ditampilkan meliputi nama bus, nomor plat, jenis bus, serta status operasional.
+
+**2. Menambahkan Data Bus**, Fitur ini digunakan untuk menambahkan data bus baru ke dalam sistem. Pengguna dapat mengisi informasi bus melalui formulir yang tersedia.
+
+**3. Mengubah Data Bus**, Fitur ini digunakan untuk memperbarui atau mengedit informasi bus yang telah tersimpan sebelumnya. Perubahan data akan langsung diperbarui dalam sistem setelah pengguna menyimpan perubahan.
+
+**4. Menghapus Data Bus**, Fitur ini digunakan untuk menghapus data bus dari sistem aplikasi. Sebelum proses penghapusan dilakukan, sistem akan menampilkan konfirmasi untuk mencegah kesalahan penghapusan data.
 
 ---
 

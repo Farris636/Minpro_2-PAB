@@ -54,4 +54,13 @@ Fitur Manajemen Data Bus digunakan untuk mengelola seluruh data bus yang tersimp
 ---
 
 ## Widget yang Digunakan
+Aplikasi Manajemen Data Bus dibangun menggunakan berbagai widget pada framework Flutter. Widget digunakan untuk membangun tampilan antarmuka serta mengatur
+interaksi pengguna dengan aplikasi.
+
+Berikut beberapa widget utama yang digunakan dalam pengembangan aplikasi ini.
+
+### 🏗️ MaterialApp
+
+---
+
 ## Nilai Tambah

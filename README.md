@@ -282,6 +282,7 @@ Aplikasi ini menggunakan layanan Supabase Authentication sebagai sistem autentik
 
 Penggunaan Supabase Authentication bertujuan untuk memastikan bahwa hanya pengguna yang memiliki akun yang dapat mengakses aplikasi.
 
+#
 
 ### 🌙 Light Mode dan Dark Mode
 Aplikasi Manajemen Data Bus menyediakan dua pilihan tema tampilan antarmuka, yaitu Light Mode dan Dark Mode. Fitur ini memungkinkan pengguna untuk menyesuaikan tampilan aplikasi sesuai dengan kebutuhan dan kenyamanan saat menggunakan aplikasi.
@@ -316,5 +317,7 @@ Mode terang (Light Mode) menampilkan antarmuka dengan latar belakang berwarna te
 
 ### 🔑 Penggunaan File Konfigurasi .env
 Aplikasi ini menggunakan file konfigurasi lingkungan dengan format .env untuk menyimpan data konfigurasi yang bersifat sensitif, seperti alamat layanan backend dan kunci akses API.
+
+#
 
 Penggunaan file .env bertujuan untuk memisahkan informasi konfigurasi dari kode sumber aplikasi sehingga keamanan data dapat lebih terjaga serta memudahkan proses pengelolaan konfigurasi aplikasi.

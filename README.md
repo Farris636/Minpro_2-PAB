@@ -17,7 +17,7 @@ Selain itu, aplikasi ini juga menyediakan fitur Login dan Register menggunakan S
 </p>
 <p align="center">Halaman login digunakan untuk mengakses aplikasi dengan akun yang telah terdaftar.</p>
 
-
+---
 
 ## Fitur Aplikasi
 Aplikasi Manajemen Data Bus memiliki beberapa fitur utama sebagai berikut:
@@ -37,7 +37,7 @@ terdaftar.Fitur ini berfungsi untuk memverifikasi identitas pengguna sehingga ha
 
 **3. Logout pengguna**, Fitur Logout digunakan untuk keluar dari aplikasi dan mengakhiri sesi pengguna yang sedang aktif. Fungsi ini bertujuan untuk menjaga keamanan akun serta mencegah akses oleh pihak yang tidak berwenang.
 
---- 
+#
 
 ### 🚌 Manajemen Data Bus (CRUD)
 Fitur Manajemen Data Bus digunakan untuk mengelola seluruh data bus yang tersimpan di dalam sistem aplikasi.
@@ -73,6 +73,8 @@ Berikut beberapa widget utama yang digunakan dalam pengembangan aplikasi ini.
 
 MaterialApp merupakan widget utama yang digunakan untuk menjalankan aplikasi berbasis Material Design. Pada aplikasi Manajemen Data Bus, widget ini berada pada file main.dart dan berfungsi untuk mengatur konfigurasi aplikasi seperti tema (Light Mode dan Dark Mode), navigasi halaman, serta halaman awal aplikasi.
 
+#
+
 ### 🧱 Scaffold
 Scaffold digunakan sebagai kerangka dasar halaman aplikasi.
 Widget ini menyediakan struktur layout yang terdiri dari AppBar, Body, FloatingActionButton, dan komponen lainnya sehingga memudahkan dalam menyusun tampilan halaman.
@@ -90,6 +92,7 @@ Widget ini digunakan pada hampir seluruh halaman seperti:
 - Add Armada Page
 - Edit Armada Page
 
+#
 
 ### 📌 AppBar
 AppBar merupakan widget yang digunakan untuk menampilkan bilah navigasi di bagian atas halaman aplikasi. Biasanya widget ini berisi judul halaman, tombol navigasi kembali, serta ikon menu lainnya.
@@ -105,6 +108,7 @@ Pada aplikasi ini, AppBar digunakan pada halaman:
 - Tambah Bus
 - Edit Bus
 
+#
 
 ### 📄 ListView.builder
 ListView.builder digunakan untuk menampilkan data dalam bentuk daftar yang dapat digulir secara vertikal. Widget ini sangat efisien untuk menampilkan data dalam jumlah banyak karena hanya akan merender item yang tampil di layar.
@@ -115,6 +119,7 @@ ListView.builder digunakan untuk menampilkan data dalam bentuk daftar yang dapat
 
 Pada aplikasi ini, widget ini digunakan untuk menampilkan daftar data bus.
 
+#
 
 ### 🧾 Card
 Card merupakan widget yang digunakan untuk menampilkan informasi dalam bentuk kartu dengan tampilan yang lebih rapi dan terstruktur.
@@ -125,6 +130,7 @@ Card merupakan widget yang digunakan untuk menampilkan informasi dalam bentuk ka
 
 Pada aplikasi ini, setiap data bus ditampilkan menggunakan widget Card agar informasi bus lebih mudah dibaca oleh pengguna.
 
+#
 
 ### 📝 Form
 Form digunakan untuk mengelompokkan beberapa komponen input dalam satu formulir. Widget ini biasanya digunakan pada halaman yang memerlukan input data dari pengguna.
@@ -142,6 +148,7 @@ Pada aplikasi ini, Form digunakan pada halaman:
 - Tambah Bus
 - Edit Bus
 
+#
 
 ### ✏️ TextFormField
 TextFormField merupakan widget input yang digunakan untuk menerima data teks dari pengguna. Widget ini juga mendukung fitur validasi input untuk memastikan data yang dimasukkan sesuai dengan ketentuan yang ditetapkan.
@@ -156,6 +163,8 @@ Contoh penggunaan pada aplikasi ini:
 - Input password saat login
 - Input nama bus
 - Input nomor polisi
+
+#
 
 ### 🔘 ElevatedButton
 ElevatedButton merupakan widget tombol yang digunakan untuk menjalankan suatu aksi ketika ditekan oleh pengguna.
@@ -173,6 +182,7 @@ Pada aplikasi ini, tombol ini digunakan untuk beberapa fungsi seperti:
 - Menyimpan data bus
 - Memperbarui data bus
 
+#
 
 ### 🔄 Navigator
 Navigator digunakan untuk mengatur perpindahan antar halaman dalam aplikasi.
@@ -182,6 +192,8 @@ Widget ini memungkinkan pengguna berpindah dari satu halaman ke halaman lainnya,
 - dari halaman daftar bus ke halaman tambah bus
 - dari halaman tambah bus kembali ke halaman daftar bus
 
+#
+
 ### 📦 Provider (State Management)
 Provider merupakan salah satu metode state management yang digunakan untuk mengelola data aplikasi serta memperbarui tampilan ketika data berubah.
 
@@ -190,6 +202,62 @@ Dalam aplikasi Manajemen Data Bus, Provider digunakan untuk:
 - Mengelola data bus
 - Menyimpan daftar bus dalam aplikasi
 - Memperbarui tampilan daftar bus secara otomatis ketika data berubah
+
+### Widget Lainnya
+
+**MultiProvider**
+Widget yang digunakan untuk menyediakan beberapa Provider sekaligus sehingga state management dapat diakses oleh seluruh bagian aplikasi.
+
+**ChangeNotifierProvider**,
+Widget yang digunakan untuk menyediakan objek ChangeNotifier kepada widget lain agar perubahan data dapat diperbarui secara otomatis.
+
+**IndexedStack**, 
+Widget yang digunakan untuk menampilkan salah satu widget dari beberapa widget yang tersedia tanpa menghapus state widget lainnya.
+
+**BottomNavigationBar**,
+Widget navigasi yang digunakan untuk berpindah antar halaman melalui menu yang berada di bagian bawah aplikasi.
+
+**BottomNavigationBarItem**,
+Widget yang digunakan sebagai item atau menu pada BottomNavigationBar.
+
+**FutureBuilder**,
+Widget yang digunakan untuk menampilkan data yang berasal dari proses asynchronous seperti pengambilan data dari database.
+
+**CircularProgressIndicator**,
+Widget yang digunakan untuk menampilkan indikator proses pemuatan data ketika aplikasi sedang mengambil data.
+
+**FloatingActionButton**,
+Widget tombol aksi utama yang biasanya digunakan untuk menjalankan tindakan penting seperti menambahkan data baru.
+
+**PopupMenuButton**,
+Widget yang digunakan untuk menampilkan menu pilihan dalam bentuk dropdown ketika pengguna menekan suatu tombol.
+
+**PopupMenuItem**,
+Widget yang digunakan sebagai item pilihan dalam PopupMenuButton.
+
+**GridView**,
+Widget yang digunakan untuk menampilkan data dalam bentuk susunan grid atau kotak.
+
+**GridView.count**,
+Varian dari GridView yang digunakan untuk menentukan jumlah kolom dalam tampilan grid secara langsung.
+
+**CircleAvatar**,
+Widget yang digunakan untuk menampilkan gambar atau ikon profil dalam bentuk lingkaran.
+
+**Spacer**,
+Widget yang digunakan untuk memberikan ruang kosong fleksibel di antara widget lain dalam suatu layout.
+
+**InputDecoration**,
+Widget yang digunakan untuk mengatur tampilan field input seperti label, hint, dan border.
+
+**OutlineInputBorder**,
+Widget yang digunakan untuk memberikan garis batas pada komponen input seperti TextField.
+
+**DropdownMenuItem**,
+Widget yang digunakan sebagai pilihan item dalam komponen DropdownButtonFormField.
+
+**IconThemeData**,
+Widget yang digunakan untuk mengatur tampilan ikon pada komponen tertentu seperti AppBar.
 
 ---
 

@@ -60,7 +60,40 @@ interaksi pengguna dengan aplikasi.
 Berikut beberapa widget utama yang digunakan dalam pengembangan aplikasi ini.
 
 ### 🏗️ MaterialApp
+<p align="center">
+  <img src="screenshoot/LoginPage.png" width="200">
+  <img src="screenshoot/Login_Dark.png" width="200">
+</p>
+
+MaterialApp merupakan widget utama yang digunakan untuk menjalankan aplikasi berbasis Material Design. Pada aplikasi Manajemen Data Bus, widget ini berada pada file main.dart dan berfungsi untuk mengatur konfigurasi aplikasi seperti tema (Light Mode dan Dark Mode), navigasi halaman, serta halaman awal aplikasi.
+
 
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Nilai Tambah

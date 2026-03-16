@@ -218,14 +218,30 @@ Penggunaan Supabase Authentication bertujuan untuk memastikan bahwa hanya penggu
 ### 🌙 Light Mode dan Dark Mode
 Aplikasi Manajemen Data Bus menyediakan dua pilihan tema tampilan antarmuka, yaitu Light Mode dan Dark Mode. Fitur ini memungkinkan pengguna untuk menyesuaikan tampilan aplikasi sesuai dengan kebutuhan dan kenyamanan saat menggunakan aplikasi.
 
+**Light Mode**
 <p align="center">
-  <img src="screenshoot/LoginPage.png" width="200">
-  <img src="screenshoot/RegisterPage.png" width="200">
-  <img src="screenshoot/Daftar.png" width="200">
-  <img src="screenshoot/Tambah.png" width="200">
-  <img src="screenshoot/Edit.png" width="200">
-  <img src="screenshoot/Hapus.png" width="200">
-  <img src="screenshoot/Logout.png" width="200">
+  <img src="screenshoot/LoginPage.png" width="240">
+  <img src="screenshoot/RegisterPage.png" width="239">
+  <img src="screenshoot/Home.png" width="240">
+  <img src="screenshoot/Daftar.png" width="240">
+  <img src="screenshoot/Tambah.png" width="190">
+  <img src="screenshoot/Edit.png" width="190">
+  <img src="screenshoot/Hapus.png" width="190">
+  <img src="screenshoot/Quick.png" width="190">
+  <img src="screenshoot/Logout.png" width="190">
+</p>
+
+**Dark Mode**
+<p align="center">
+  <img src="screenshoot/Login_Dark.png" width="240">
+  <img src="screenshoot/Register_Dark.png" width="239">
+  <img src="screenshoot/Home_Dark.png" width="240">
+  <img src="screenshoot/Daftar_Dark.png" width="240">
+  <img src="screenshoot/Tambah_Dark.png" width="190">
+  <img src="screenshoot/Edit_Dark.png" width="190">
+  <img src="screenshoot/Hapus_Dark.png" width="190">
+  <img src="screenshoot/Quick_Dark.png" width="190">
+  <img src="screenshoot/Logout_Dark.png" width="190">
 </p>
 
 Mode terang (Light Mode) menampilkan antarmuka dengan latar belakang berwarna terang sehingga memudahkan pengguna dalam membaca informasi pada kondisi pencahayaan normal. Sementara itu, mode gelap (Dark Mode) menampilkan antarmuka dengan latar belakang gelap yang bertujuan untuk mengurangi intensitas cahaya layar, terutama ketika aplikasi digunakan pada kondisi minim pencahayaan.

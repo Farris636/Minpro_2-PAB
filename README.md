@@ -67,6 +67,110 @@ Berikut beberapa widget utama yang digunakan dalam pengembangan aplikasi ini.
 
 MaterialApp merupakan widget utama yang digunakan untuk menjalankan aplikasi berbasis Material Design. Pada aplikasi Manajemen Data Bus, widget ini berada pada file main.dart dan berfungsi untuk mengatur konfigurasi aplikasi seperti tema (Light Mode dan Dark Mode), navigasi halaman, serta halaman awal aplikasi.
 
+### 🧱 Scaffold
+Scaffold digunakan sebagai kerangka dasar halaman aplikasi.
+Widget ini menyediakan struktur layout yang terdiri dari AppBar, Body, FloatingActionButton, dan komponen lainnya sehingga memudahkan dalam menyusun tampilan halaman.
+<p align="center">
+  <img src="screenshoot/LoginPage.png" width="200">
+  <img src="screenshoot/RegisterPage.png" width="200">
+  <img src="screenshoot/Daftar.png" width="200">
+  <img src="screenshoot/Edit.png" width="200">
+</p>
+Widget ini digunakan pada hampir seluruh halaman seperti:
+
+- Login Page
+- Register Page
+- Armada Page
+- Add Armada Page
+- Edit Armada Page
+
+
+### 📌 AppBar
+AppBar merupakan widget yang digunakan untuk menampilkan bilah navigasi di bagian atas halaman aplikasi. Biasanya widget ini berisi judul halaman, tombol navigasi kembali, serta ikon menu lainnya.
+
+<p align="center">
+  <img src="screenshoot/Daftar.png" width="200">
+  <img src="screenshoot/Tambah.png" width="200">
+  <img src="screenshoot/Edit.png" width="200">
+</p>
+Pada aplikasi ini, AppBar digunakan pada halaman:
+
+- Daftar Bus
+- Tambah Bus
+- Edit Bus
+
+
+### 📄 ListView.builder
+ListView.builder digunakan untuk menampilkan data dalam bentuk daftar yang dapat digulir secara vertikal. Widget ini sangat efisien untuk menampilkan data dalam jumlah banyak karena hanya akan merender item yang tampil di layar.
+
+<p align="center">
+  <img src="screenshoot/Daftar.png" width="200">
+</p>
+
+Pada aplikasi ini, widget ini digunakan untuk menampilkan daftar data bus.
+
+
+### 🧾 Card
+Card merupakan widget yang digunakan untuk menampilkan informasi dalam bentuk kartu dengan tampilan yang lebih rapi dan terstruktur.
+
+<p align="center">
+  <img src="screenshoot/Daftar.png" width="200">
+</p>
+
+Pada aplikasi ini, setiap data bus ditampilkan menggunakan widget Card agar informasi bus lebih mudah dibaca oleh pengguna.
+
+
+### 📝 Form
+Form digunakan untuk mengelompokkan beberapa komponen input dalam satu formulir. Widget ini biasanya digunakan pada halaman yang memerlukan input data dari pengguna.
+
+<p align="center">
+  <img src="screenshoot/LoginPage.png" width="200">
+  <img src="screenshoot/RegisterPage.png" width="200">
+  <img src="screenshoot/Tambah.png" width="200">
+  <img src="screenshoot/Edit.png" width="200">
+</p>
+Pada aplikasi ini, Form digunakan pada halaman:
+
+- Login
+- Register
+- Tambah Bus
+- Edit Bus
+
+
+### ✏️ TextFormField
+TextFormField merupakan widget input yang digunakan untuk menerima data teks dari pengguna. Widget ini juga mendukung fitur validasi input untuk memastikan data yang dimasukkan sesuai dengan ketentuan yang ditetapkan.
+
+<p align="center">
+  <img src="screenshoot/LoginPage.png" width="200">
+  <img src="screenshoot/Tambah.png" width="200">
+</p>
+Contoh penggunaan pada aplikasi ini:
+
+- Input email saat login
+- Input password saat login
+- Input nama bus
+- Input nomor polisi
+
+### 🔘 ElevatedButton
+ElevatedButton merupakan widget tombol yang digunakan untuk menjalankan suatu aksi ketika ditekan oleh pengguna.
+
+<p align="center">
+  <img src="screenshoot/LoginPage.png" width="200">
+  <img src="screenshoot/RegisterPage.png" width="200">
+  <img src="screenshoot/Tambah.png" width="200">
+  <img src="screenshoot/Edit.png" width="200">
+</p>
+Pada aplikasi ini, tombol ini digunakan untuk beberapa fungsi seperti:
+
+- Login
+- Register
+- Menyimpan data bus
+- Memperbarui data bus
+
+
+
+
+
 
 ---
 

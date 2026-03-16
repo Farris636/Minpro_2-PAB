@@ -1,3 +1,9 @@
+# Mini Project-2 Pemrograman Aplikasi Bergerak
+## Nama: Moch. Farris Alfiansyah
+## NIM: 2409116079
+
+---
+
 # 🚌 Manajemen_Data_Bus
 
 ## Deskripsi Aplikasi
@@ -196,16 +202,30 @@ Di sini saya menggunakan beberapa fitur sebagai nilai tambah.
   <img src="screenshoot/RegisterPage.png" width="200">
 </p>
 
-Fitur Login digunakan oleh pengguna untuk masuk ke dalam aplikasi dengan memasukkan alamat surel dan kata sandi yang telah terdaftar sebelumnya. Sistem kemudian akan melakukan proses verifikasi terhadap data pengguna melalui layanan Supabase.
+**Fitur Login** digunakan oleh pengguna untuk masuk ke dalam aplikasi dengan memasukkan alamat surel dan kata sandi yang telah terdaftar sebelumnya. Sistem kemudian akan melakukan proses verifikasi terhadap data pengguna melalui layanan Supabase.
 
-Fitur Register digunakan untuk membuat akun pengguna baru. Pada proses ini, pengguna diminta untuk mengisi data berupa alamat surel dan kata sandi yang kemudian akan disimpan pada sistem autentikasi Supabase.
+**Fitur Register** digunakan untuk membuat akun pengguna baru. Pada proses ini, pengguna diminta untuk mengisi data berupa alamat surel dan kata sandi yang kemudian akan disimpan pada sistem autentikasi Supabase.
 
 <p align="center">
-  <img src="screenshoot/LoginPage.png" width="200">
-  <img src="screenshoot/RegisterPage.png" width="200">
+  <img src="screenshoot/Data_User.png" width="1000">
 </p>
-
 
 Aplikasi ini menggunakan layanan Supabase Authentication sebagai sistem autentikasi pengguna. Layanan ini digunakan untuk mengelola proses pendaftaran akun serta proses masuk pengguna ke dalam aplikasi secara aman.
 
 Penggunaan Supabase Authentication bertujuan untuk memastikan bahwa hanya pengguna yang memiliki akun yang dapat mengakses aplikasi.
+
+
+### 🌙 Light Mode dan Dark Mode
+Aplikasi Manajemen Data Bus menyediakan dua pilihan tema tampilan antarmuka, yaitu Light Mode dan Dark Mode. Fitur ini memungkinkan pengguna untuk menyesuaikan tampilan aplikasi sesuai dengan kebutuhan dan kenyamanan saat menggunakan aplikasi.
+
+<p align="center">
+  <img src="screenshoot/LoginPage.png" width="200">
+  <img src="screenshoot/RegisterPage.png" width="200">
+  <img src="screenshoot/Daftar.png" width="200">
+  <img src="screenshoot/Tambah.png" width="200">
+  <img src="screenshoot/Edit.png" width="200">
+  <img src="screenshoot/Hapus.png" width="200">
+  <img src="screenshoot/Logout.png" width="200">
+</p>
+
+Mode terang (Light Mode) menampilkan antarmuka dengan latar belakang berwarna terang sehingga memudahkan pengguna dalam membaca informasi pada kondisi pencahayaan normal. Sementara itu, mode gelap (Dark Mode) menampilkan antarmuka dengan latar belakang gelap yang bertujuan untuk mengurangi intensitas cahaya layar, terutama ketika aplikasi digunakan pada kondisi minim pencahayaan.

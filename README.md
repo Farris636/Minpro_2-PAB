@@ -155,10 +155,10 @@ Contoh penggunaan pada aplikasi ini:
 ElevatedButton merupakan widget tombol yang digunakan untuk menjalankan suatu aksi ketika ditekan oleh pengguna.
 
 <p align="center">
-  <img src="screenshoot/LoginPage.png" width="200">
-  <img src="screenshoot/RegisterPage.png" width="200">
-  <img src="screenshoot/Tambah.png" width="200">
-  <img src="screenshoot/Edit.png" width="200">
+  <img src="screenshoot/Login_Btn.png" width="200">
+  <img src="screenshoot/Register_Btn.png" width="200">
+  <img src="screenshoot/Tambah_Btn.png" width="180">
+  <img src="screenshoot/Edit_Btn.png" width="200">
 </p>
 Pada aplikasi ini, tombol ini digunakan untuk beberapa fungsi seperti:
 
@@ -168,36 +168,44 @@ Pada aplikasi ini, tombol ini digunakan untuk beberapa fungsi seperti:
 - Memperbarui data bus
 
 
+### 🔄 Navigator
+Navigator digunakan untuk mengatur perpindahan antar halaman dalam aplikasi.
 
+Widget ini memungkinkan pengguna berpindah dari satu halaman ke halaman lainnya, misalnya:
 
+- dari halaman daftar bus ke halaman tambah bus
+- dari halaman tambah bus kembali ke halaman daftar bus
 
+### 📦 Provider (State Management)
+Provider merupakan salah satu metode state management yang digunakan untuk mengelola data aplikasi serta memperbarui tampilan ketika data berubah.
+
+Dalam aplikasi Manajemen Data Bus, Provider digunakan untuk:
+
+- Mengelola data bus
+- Menyimpan daftar bus dalam aplikasi
+- Memperbarui tampilan daftar bus secara otomatis ketika data berubah
 
 ---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Nilai Tambah
+Di sini saya menggunakan beberapa fitur sebagai nilai tambah.
+
+### 🔐 Login & Register menggunakan Supabase Auth
+<p align="center">
+  <img src="screenshoot/LoginPage.png" width="200">
+  <img src="screenshoot/RegisterPage.png" width="200">
+</p>
+
+Fitur Login digunakan oleh pengguna untuk masuk ke dalam aplikasi dengan memasukkan alamat surel dan kata sandi yang telah terdaftar sebelumnya. Sistem kemudian akan melakukan proses verifikasi terhadap data pengguna melalui layanan Supabase.
+
+Fitur Register digunakan untuk membuat akun pengguna baru. Pada proses ini, pengguna diminta untuk mengisi data berupa alamat surel dan kata sandi yang kemudian akan disimpan pada sistem autentikasi Supabase.
+
+<p align="center">
+  <img src="screenshoot/LoginPage.png" width="200">
+  <img src="screenshoot/RegisterPage.png" width="200">
+</p>
+
+
+Aplikasi ini menggunakan layanan Supabase Authentication sebagai sistem autentikasi pengguna. Layanan ini digunakan untuk mengelola proses pendaftaran akun serta proses masuk pengguna ke dalam aplikasi secara aman.
+
+Penggunaan Supabase Authentication bertujuan untuk memastikan bahwa hanya pengguna yang memiliki akun yang dapat mengakses aplikasi.

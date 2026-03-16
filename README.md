@@ -245,3 +245,8 @@ Aplikasi Manajemen Data Bus menyediakan dua pilihan tema tampilan antarmuka, yai
 </p>
 
 Mode terang (Light Mode) menampilkan antarmuka dengan latar belakang berwarna terang sehingga memudahkan pengguna dalam membaca informasi pada kondisi pencahayaan normal. Sementara itu, mode gelap (Dark Mode) menampilkan antarmuka dengan latar belakang gelap yang bertujuan untuk mengurangi intensitas cahaya layar, terutama ketika aplikasi digunakan pada kondisi minim pencahayaan.
+
+### 🔑 Penggunaan File Konfigurasi .env
+Aplikasi ini menggunakan file konfigurasi lingkungan dengan format .env untuk menyimpan data konfigurasi yang bersifat sensitif, seperti alamat layanan backend dan kunci akses API.
+
+Penggunaan file .env bertujuan untuk memisahkan informasi konfigurasi dari kode sumber aplikasi sehingga keamanan data dapat lebih terjaga serta memudahkan proses pengelolaan konfigurasi aplikasi.
